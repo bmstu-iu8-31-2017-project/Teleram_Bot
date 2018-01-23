@@ -4,7 +4,7 @@ import psycopg2
 
 
 class DataBase:
-       def __init__(self):
+    def __init__(self):
         self.conn = psycopg2.connect(
             dbname='',
             user=''
